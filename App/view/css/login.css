@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+body{
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+}
+*/
+body{
+  /*overflow-x: hidden;*/
+  overflow-y: auto;
+}
+#med{
+  height: 100vh;
+  width: 100%;
+
+
+}
+.img-position{
+  margin-left: -20%;
+  margin-top: -3px;
+}
+.main{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+.login-position{
+/*  margin-top: 8%;*/
+  margin-right: 55px;
+
+}
+
+.form-lab-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+#nome{
+    margin-bottom: 20px;
+}
+#nome, #pass{
+  width: 400px;
+}
+.pass-tools{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap:15px;
+  position: absolute;
+  left: 10%;
+  margin-bottom: 20px
+}
+.form-p{
+  position: relative;
+}
+.btn-login-position{
+margin-top: 60px;
+}
+
+@media (max-width:950px){
+
+  .img-position{
+    display: none;
+  }
+  .login-position{
+    overflow: auto;
+  }
+
+}
+
+@media (max-width: 380px){
+
+  .login-position{
+        margin-right: 10px;
+        margin-left: 10px;
+  }
+  .pass-tools
+  {
+    position: absolute;
+    left: 10%;
+  }
+}

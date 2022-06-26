@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(90, 196, 121);
+    overflow: auto;
+}
+.card-config{
+    border-radius: 8px;
+}
+
+.img1_medicine{
+    width: 80%;
+    height: auto;
+     
+}
+
+.d-login{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.a-config{
+    text-decoration: none;
+}
+
+.d-passtools{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.d-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap:5px;
+  }
+  
+
+.input-style-border{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid #eee;
+    border-bottom: 2px solid rgb(90, 196, 121);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+.lb{
+    display: block;
+}
+
+
+
+
+@media (max-width:2150px){
+
+  body{
+      overflow-x: hidden;
+      
+  }
+  
+  }
+
+  @media (max-width:1115px){
+
+    .col-login-index{
+        width: auto;
+    }
+    
+    }
+
+    @media (max-width:924px){
+
+        .col-info-index{
+            display: none;
+        }
+        .col-login-index{
+            display: flex;
+            justify-content: center;
+        }
+       }
+    
+
+
+  

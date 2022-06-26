@@ -1,0 +1,91 @@
+body{
+  background: #F6F6F6;
+}
+.card-conf{
+  border-radius: 8px;
+}
+
+.ind{
+  color:#000;
+  text-decoration: none;
+  font-weight: 800px;
+  font-size: 13px;
+}
+.ind-now{background-color: rgb(90, 196, 121); border-radius: 20px; padding: 5px 9px; color:#fff ;}
+.ind-now:hover{color:#fff; cursor: context-menu;}
+.btn-close-cash{
+  float: right;
+}
+
+.msg_input{
+  background: #e74c3c;
+  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight:600;
+}
+.nav-color{
+    background: rgba(0, 0, 0, 0.1);
+}
+.input-style-border{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border: 1px solid #eee;
+  border-bottom: 2px solid rgb(90, 196, 121);
+  border-radius: 5px;
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+}
+
+.input-style{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+
+/*TABLE UI CSS */
+
+.content-table{
+
+  border-collapse: collapse;
+  margin:5px 0;
+  font-size: 0.9em;
+  min-width: 500px;
+  border-radius: 5px ;
+  overflow: hidden;
+
+
+
+}
+
+.content-table thead th{
+
+  background-color: rgb(90, 196, 122);
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+ 
+}
+
+.content-table th, .content-table td{
+padding: 12px 15px;
+font-weight: 500;
+background-color: #fff;
+
+}
+
+.content-table tbody tr{
+
+ border-bottom: 1px solid #ddd;
+}
+
+.content-table tbody tr:last-of-type{
+
+  border-bottom: 2px solid #F6F6F6;
+ }

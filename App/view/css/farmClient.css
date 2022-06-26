@@ -1,0 +1,11 @@
+.card-config{
+  border-radius: 8px;
+  width: 65em;
+  margin: 0px auto;
+}
+body{
+  background: #F6F6F6;
+}
+.nav-color{
+    background: rgba(0, 0, 0, 0.1);
+}

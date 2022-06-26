@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#med{
+  height: 100vh;
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+.login-position{
+  margin-top: 8%;
+}
+
+.form-lab-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+#email{
+  width: 400px;
+}
+.form-p{
+  position: relative;
+}
+.btn-login-position{
+margin-top: 30px;
+}
